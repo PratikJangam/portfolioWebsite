@@ -1,0 +1,332 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+header {
+  text-align: center;
+  padding: 1.7rem;
+}
+
+header h1 {
+  padding: 1rem;
+}
+
+header hr {
+  width: 70%;
+  margin: auto;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+  /* padding: 0.3rem; */
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  width: 70%;
+  margin: auto;
+  /* border: 2px solid red; */
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 2rem 0;
+}
+
+.hero-info {
+  background-color: #eeeeee;
+  /* border: 2px solid blue; */
+  width: 40%;
+  height: fit-content;
+  position: absolute;
+  z-index: 1;
+  left: 20%;
+  line-height: 2.5;
+  padding: 1rem;
+}
+.hero-info p {
+  text-align: left;
+  /* line-height: 1.875em; */
+  font-size: 15px;
+}
+
+.hero-info h1 {
+  text-align: left;
+  /* line-height: 1.35em; */
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.hero-info h3 {
+  font-weight: bold;
+}
+
+.hero-img {
+  position: relative;
+  width: 50%;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.achievement {
+  margin-top: 5rem;
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.achievement h1 {
+  margin: 1rem;
+  font-size: 35px;
+}
+
+.achievement h3 {
+  font-size: 25px;
+  margin: 2rem;
+}
+
+.card {
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+  background-color: #eeeeee;
+}
+.card-img {
+  width: 50%;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-info {
+  padding: 1.6rem;
+}
+
+.card-info h1 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+.card-info p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 1rem;
+}
+
+.academic-main {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.academic-main h1 {
+  padding: 1rem;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.academic-main p {
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: 400;
+}
+.academic-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.academic-card svg {
+  width: 5%;
+  margin-right: 0.5rem;
+}
+
+.academic-period {
+  text-align: start;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.designation {
+  text-align: start;
+  font-size: 20px;
+  font-weight: 400;
+}
+.academic-info {
+  width: 40%;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+/* Contact Form */
+
+.contact-main {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.contact-main h1 {
+  font-size: 40px;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+.contact-main form {
+  /* border: 2px solid red; */
+  width: 70%;
+  margin: auto;
+  text-align: start;
+}
+
+.contact-main form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+.contact-main form input:focus {
+  outline: none;
+}
+.contact-main form label {
+  font-weight: 200;
+}
+
+.contact-main form button {
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  background-color: grey;
+  outline: none;
+
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* seminar page */
+
+header h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.seminar-info {
+  line-height: 2;
+  padding: 3rem;
+}
+
+.seminar-info h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.seminar-info p {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.seminar-info ul {
+  padding: 1rem;
+}
+.seminar-info ul li {
+  padding: 0.2rem;
+  color: grey;
+}
+
+/* Certificate Page */
+
+.certificate-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.certificate-img {
+  width: 40%;
+  padding: 1rem;
+}
+
+.certificate-img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 0;
+  }
+
+  section {
+    width: 90%;
+  }
+  .hero {
+    flex-wrap: wrap;
+    flex-direction: inherit;
+  }
+  .hero-info {
+    position: inherit;
+    width: 100%;
+  }
+  .hero-img {
+    display: none;
+  }
+  .card {
+    flex-wrap: wrap;
+  }
+  .card-img {
+    width: 100%;
+  }
+
+  .academic-card {
+    flex-wrap: wrap;
+    line-height: 2;
+  }
+  .academic-info {
+    width: 100%;
+  }
+
+  .academic-card svg {
+    width: 30%;
+  }
+
+  .seminar-info {
+    padding: 0%;
+  }
+  .seminar-info h1 {
+    font-size: 30px;
+    padding: 2rem 0;
+  }
+  .seminar-info p {
+    font-size: 20px;
+  }
+
+  .contact-main form {
+    width: 80%;
+  }
+
+  .certificate-img {
+    width: 80%;
+  }
+}
